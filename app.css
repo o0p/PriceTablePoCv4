@@ -50,4 +50,16 @@ html{
 
 body {
     background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    max-width: 960px;
 }
